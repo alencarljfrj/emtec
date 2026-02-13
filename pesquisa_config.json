@@ -1,12 +1,6 @@
-# emtec
-
-Estrutura de configuração de pesquisa atualizada:
-
-```json
 {
   "sites": [
     "https://www.pjf.mg.gov.br"
   ],
   "palavra_chave": "Licitação"
 }
-```
