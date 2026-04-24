@@ -1,0 +1,36 @@
+segmento: "Construção e manutenção de estradas vicinais rurais"
+seed_urls:
+  - "https://cimparzonadamata.org.br/categorias/1/Licitacoes"
+  - "https://www.pjf.mg.gov.br/"
+domains_allowlist:
+  - "cimparzonadamata.org.br"
+  - "pjf.mg.gov.br"
+  - "juizdefora.mg.gov.br"
+max_depth: 5
+max_pages: 1200
+request_timeout_seconds: 45
+concurrency: 8
+user_agent: "Mozilla/5.0 (compatible; AtasVigentesBot/1.0; +https://github.com/your-org)"
+keywords_atas:
+  - "ata de registro de preços"
+  - "atas de registro de preços"
+  - "ata vigentes"
+  - "arp"
+keywords_vigencia:
+  - "vigente"
+  - "vigência"
+  - "validade"
+keywords_grupo_vr:
+  - "grupo vr"
+  - "aditivo"
+  - "renovação"
+  - "prorrogação"
+  - "estradas vicinais"
+  - "manutenção de estradas"
+file_extensions:
+  - ".pdf"
+  - ".doc"
+  - ".docx"
+  - ".html"
+  - ".htm"
+output_dir: "output"
